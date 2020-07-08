@@ -1,0 +1,99 @@
+html{
+	background-color: rgb(26, 26, 26);
+	overflow-y: hidden;
+}
+
+.fluid-container{
+	background-color: rgb(26, 26, 26);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	height: 650px;
+}
+
+
+.leftpanel{
+	flex: 7;
+	background-color: rgb(32, 32, 32);
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.rightpanel{
+	flex: 2;
+	margin-left: 10px;
+	background-color: rgb(32, 32, 32);
+}
+
+#rightcard{
+	
+}
+
+.acard{
+	background-color: rgb(36, 35, 35);
+	color: rgba(255, 255, 255, 0.795);
+}
+
+.actiongroup{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.g{
+	padding: 0px;
+	border-radius: 8px;
+}
+.g:hover{
+	background-color:  rgba(0, 0, 0, 0.171);
+}
+
+.txt{
+	color: white;
+}
+
+.transactioncontainer{
+	padding: 10px;
+	color: white;
+}
+
+.transactionbox{
+	overflow-y: scroll;
+	background-color: transparent;
+	height: 280px;
+	padding: 1px;
+	border: 1px solid gray;
+}
+
+#txb{
+	padding: 3px 3px 0px 3px;
+}
+
+.transactionbox::-webkit-scrollbar {
+    width: 1em;
+}
+.transactionbox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.479);
+}
+.transactionbox::-webkit-scrollbar-thumb {
+  background-color: rgb(200, 35, 51);
+  outline: 1px solid slategrey;
+}
+
+.tx{
+	border-bottom: 10px solid black;
+}
+
+.realval{
+	color: rgb(78, 78, 78);
+}
+
+.tr{
+	background-color: blue;
+	color: rebeccapurple;
+}
+
+.del{
+	background-color: transparent;
+	padding: 0px;
+	border: none;
+}

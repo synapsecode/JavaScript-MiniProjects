@@ -1,0 +1,111 @@
+
+  .row {
+	padding: 0 4px;
+  }
+  
+
+body{
+	background-color: rgb(32, 32, 32);
+	color: white;
+	overflow: hidden;
+}
+
+.holder{
+	padding: 20px;
+	display: flex;
+}
+
+.newscard{
+	background-color: rgb(32, 32, 32);
+	margin: 10px;
+	border: 2px solid black;
+	height: 100%;
+}
+
+
+.tb{
+	width:100px;
+}
+#canvas{
+	background-color: rgba(100, 100, 100, 0.4);
+	height: 590px;
+	width: 310px;
+	padding: 10px;
+	border: 2px solid black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#canvas::-webkit-scrollbar {
+    width: 1em;
+}
+#canvas::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+}
+#canvas::-webkit-scrollbar-thumb {
+  background-color: rgb(200, 35, 51);
+  outline: 1px solid slategrey;
+}
+
+.rightgroup::-webkit-scrollbar {
+    width: 1em;
+}
+.rightgroup::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+}
+.rightgroup::-webkit-scrollbar-thumb {
+  background-color: rgb(200, 35, 51);
+  outline: 1px solid slategrey;
+}
+
+.w{
+	flex:1;
+}
+
+.newsgroup{
+	background-color: rgba(0,0,0,0.2);
+	width: 330px;
+	padding: 10px 10px 10px 10px;
+}
+
+.leftgroup{
+	flex: 1;
+}
+
+.rightgroup{
+	flex: 3;
+	padding: 10px;
+	height: 610px;
+	background-color: rgba(0,0,0,0.3);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#statbar{
+	background-color: rgba(0,0,0,0.1);
+	flex-direction: row;
+	justify-content: center;
+	display: flex;
+}
+
+#statbar > div{
+	padding: 10px;
+	margin: 10px;
+	background-color: rgba(0,0,0,0.2);
+	height: 220px;
+	width: 220px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#statbar > div > h1{
+	margin: -20px;
+}
+
+.nl{
+	font-size: 30px;
+}
+
+.cnt{
+	font-size: 55px;
+}
